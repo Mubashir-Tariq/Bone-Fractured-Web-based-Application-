@@ -1,0 +1,17 @@
+# patch: /path/to/GRAZPEDWRI-DX/data
+path: '/home/mubashir/yolo_11_Cuda_2/GRAZPEDWRI-DX/data'
+train: '/home/mubashir/yolo_11_Cuda_2/GRAZPEDWRI-DX/data/images/train_aug'
+val: '/home/mubashir/yolo_11_Cuda_2/GRAZPEDWRI-DX/data/images/valid'
+test: '/home/mubashir/yolo_11_Cuda_2/GRAZPEDWRI-DX/data/images/test'
+
+nc: 9
+names:
+  0: boneanomaly
+  1: bonelesion
+  2: foreignbody
+  3: fracture
+  4: metal
+  5: periostealreaction
+  6: pronatorsign
+  7: softtissue
+  8: text
